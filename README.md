@@ -26,6 +26,8 @@ Na cvičení budeme programovat v Pythonu 3 v prostředí [Visual Studio Code](h
 
 Další vhodné prostředí pro Python je [PyCharm](https://www.jetbrains.com/pycharm/), můžete si stáhnout zdarma dostupnou Community Edition. Můžete samozřejmě použít i jiná prostředí, pokud jsou vám bližší.
 
+Pokud si potřebujete jen něco menšího vyzkoušet, tak není potřeba instalovat Python a vývojové prostředí, ale můžete si to vyzkoušet online na [repl.it](https://repl.it/). Když si zkopírujete adresu, co vám to přidělí a někomu ji pošlete, tak můžete společně vyvíjet, všichni, kdo mají otevřenou danou adresu vidí aktuální kód a mohou do něj zasahovat. 
+
 ### Komunikace
 Pro cvičení budeme využívat [MS Teams](https://www.microsoft.com/cs-cz/microsoft-365/microsoft-teams/group-chat-software), měli byste mít přístup přes [fakultní přihlášení](https://www.natur.cuni.cz/fakulta/aktuality/teams-navod), případně lze do přihlašovacího okna zadat `a@cuni.cz` a přihlásit se přes CAS, kam vás to přesměruje. Detaily dořešíme na prvním cvičení. 
 
