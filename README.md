@@ -1,4 +1,4 @@
-# Úvod do programování (2019 edition)
+# Úvod do programování (2020 edition)
 Zdrojové kódy a poznámky ke cvičení z Úvodu do programování.
 
 [Stránky](http://web.natur.cuni.cz/~bayertom/index.php/9-teaching/10-uvod-do-programovani) přednášky.
