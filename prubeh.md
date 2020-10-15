@@ -8,10 +8,13 @@
 * výpočet obsahu a obvodu čtverce
 * výpočet kořenů kvadratické rovnice
 
-## 2. cvičení (plán)
+## 2. cvičení
 * výpočet kořenů kvadratické rovnice - dokončení
 * převod stupňů na formát DMS
 * volání funkcí - poziční a pojmenované argumenty
-* for cyklus
-* želví grafika
+* želví grafika - představení
+
+## 3. cvičení (plán)
+* želví grafika - pokračování
+* cykly 
 

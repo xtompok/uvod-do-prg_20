@@ -9,4 +9,5 @@ ahoj = 137
 print(ahoj)
 ahoj = "a2s"
 print(ahoj)
+
 print("Obvod je ",37*4,"a obsah je ",37*37)
