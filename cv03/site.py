@@ -33,7 +33,7 @@ for x in range(nx):
             forward(a)
             left(60)
 
-        # posuň se na další čtverec
+        # posuň se na další šestiúhelník
         left(120)
         forward(a)
         right(60)
