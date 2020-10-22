@@ -14,7 +14,14 @@
 * volání funkcí - poziční a pojmenované argumenty
 * želví grafika - představení
 
-## 3. cvičení (plán)
+## 3. cvičení
 * želví grafika - pokračování
 * cykly 
+  * for cyklus a kreslení mřížek a kytiček
+  * while cyklus a hádání čísla
+
+## 4. cvičení (plán)
+* náhodná čísla
+* Git
+* řetězce
 
