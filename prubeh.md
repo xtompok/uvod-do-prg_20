@@ -20,8 +20,11 @@
   * for cyklus a kreslení mřížek a kytiček
   * while cyklus a hádání čísla
 
-## 4. cvičení (plán)
+## 4. cvičení
 * náhodná čísla
 * Git
 * řetězce
 
+## 5. cvičení (plán)
+* formátovací řetězce
+* definice funkcí
