@@ -25,6 +25,12 @@
 * Git
 * řetězce
 
-## 5. cvičení (plán)
+## 5. cvičení
 * formátovací řetězce
 * definice funkcí
+
+## 6. cvičení (plán)
+* definice funkcí - pokračování
+* Git - push, pull a vzdálené repozitáře
+* zadání domácího úkolu
+
