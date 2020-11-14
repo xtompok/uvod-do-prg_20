@@ -29,8 +29,16 @@
 * formátovací řetězce
 * definice funkcí
 
-## 6. cvičení (plán)
+## 6. cvičení
 * definice funkcí - pokračování
 * Git - push, pull a vzdálené repozitáře
 * zadání domácího úkolu
 
+## 7. cvičení
+* dotazy k domácímu úkolu
+* výjimky
+* moduly
+
+## 8. cvičení (plán)
+* soubory
+* seznamy
