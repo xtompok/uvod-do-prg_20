@@ -13,6 +13,9 @@ azimutální, jedno válcové tečné, jedno kuželové a jedno nepravé ze [sou
 s definicemi zobrazení](zobrazeni_vzorce.pdf). Rovnoběžky i poledníky kreslete
 po 10 stupních. Poloměr Země budiž pro tento úkol 6371,11 km.
 
+Pokud si nejste v zobrazeních jistí, sepsal [stručný popis s
+rovnicemi](zobrazeni.md). 
+
 ### Vstup 
 Program bude interaktivní. Nejprve se zeptá uživatele na použité zobrazení,
 odpovědí bude jedna z následujících:
@@ -37,14 +40,16 @@ Následně se zeptá uživatele na měřítko mapy, uživatel zadá číslo `x`,
 odpovídat měřítku 1:x, například pokud zadá 50000000, bude se počítat s měřítkem
 1:50 000 000. Měřítko bude vždy celočíselné.
 
-Nakonec se zeptá uživatele na zeměpisnou šířku a zeměpisnou délku bodu.
+Nakonec se zeptá uživatele na zeměpisnou šířku a zeměpisnou délku bodu ve stupních.
 
 ### Výstup
 Program vykreslí síť souřadnic v daném měřítku pomocí želví grafiky, pro naše
 účely předpokládejme, že 1 pixel (tedy ta jednotka, ve které udáváte souřadnice
 želvě) je 0.3 mm, tedy kratší strana A3 bude mít 891 px. Příklady výstupu viz
-níže. Následně program vypíše převedené souřadnice zadaného bodu a počká, než
-uživatel klikne na okno s vykreslenou sítí souřadnic a skončí.
+níže. Následně program vypíše převedené souřadnice zadaného bodu vůči
+referenčnímu bodu  a počká, než uživatel klikne na okno s vykreslenou sítí
+souřadnic a skončí. Převedené souřadnice zobrazujte jako `x` a `y` v mm,
+respektive jako ε ve stupních a ρ v mm (dle typu zobrazení).
 
 ### Další požadavky
 Program by se měl vypořádat s nekorektním vstupem v tom rozsahu, který zatím
