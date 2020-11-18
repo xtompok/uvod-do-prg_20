@@ -82,13 +82,13 @@ Referenční bod je střed oblouků.
  - `φ0 = 30° = π/6`
  - `n = cos(π-φ0)`
  - `ε = λ*n`
- - `ρ = R*tg(φ0) + R*(φ0-φ)`
+ - `ρ = R*tg(π-φ0) + R*(φ0-φ)`
 
 ### Lambertovo zobrazení kuželové
  - `φ0 = 30° = π/6`
  - `n = (cos((π-φ0)/2))**2`
  - `ε = λ*n`
- - `ρ = 2R*sin(φ/2)/cos(φ0/2)`
+ - `ρ = 2R*sin((π-φ)/2)/cos((π-φ0)/2)`
 
 ## Nepravá zobrazení
 Nemají pěknou geometrickou reprezentaci. V našem případě budeme souřadnice
@@ -98,6 +98,7 @@ křivky.
 ### Sansonovo zobrazení
  - `x = R*λ*cos(φ)`
  - `y = R*φ`
+ - referenční bod je průsečík nultého poledníku a nulté rovnoběžky
 
 ### Werner-Stabovo zobrazení
  - `E = λ*cos(φ)/R`
