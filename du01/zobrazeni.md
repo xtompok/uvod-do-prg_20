@@ -14,19 +14,19 @@ ještě nějaké další.
 Referenčním bodem je střed kružnic.
 
 ### Gnómonická projekce
- - `ρ = R*tg(π -φ)`
+ - `ρ = R*tg(φ)`
 
 ### Stereografická projekce
- - `ρ = 2*R*tg((π -φ)/2)`
+ - `ρ = 2*R*tg(φ/2)`
 
 ### Ortografická projekce
- - `ρ = R*sin(π -φ)`
+ - `ρ = R*sin(φ)`
 
 ### Lambertovo zobrazení azimutální
- - `ρ = 2*R*sin((π -φ)/2)`
+ - `ρ = 2*R*sin(φ/2)`
 
 ### Postelovo zobrazení
- - `ρ = R*(π -φ)`
+ - `ρ = R*φ`
 
 ## Válcová zobrazení
 Zobrazujeme na válec, který omotává, nebo protíná Zemi. Rovnoběžky a poledníky
@@ -80,15 +80,15 @@ Referenční bod je střed oblouků.
 
 ### Ptolemaiovo zobrazení
  - `φ0 = 30° = π/6`
- - `n = cos(π-φ0)`
+ - `n = cos(π/2-φ0)`
  - `ε = λ*n`
- - `ρ = R*tg(π-φ0) + R*(φ0-φ)`
+ - `ρ = R*tg(π/2-φ0) - R*(φ-(π/2-φ0))`
 
 ### Lambertovo zobrazení kuželové
  - `φ0 = 30° = π/6`
- - `n = (cos((π-φ0)/2))**2`
+ - `n = (cos((π/2-φ0)/2))**2`
  - `ε = λ*n`
- - `ρ = 2R*sin((π-φ)/2)/cos((π-φ0)/2)`
+ - `ρ = 2R*sin(φ/2)/cos((π/2-φ0)/2)`
 
 ## Nepravá zobrazení
 Nemají pěknou geometrickou reprezentaci. V našem případě budeme souřadnice
