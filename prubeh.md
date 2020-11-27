@@ -39,6 +39,17 @@
 * výjimky
 * moduly
 
-## 8. cvičení (plán)
+## 8. cvičení
 * soubory
 * seznamy
+* hra Hádej město (začátek)
+
+## 9. cvičení
+* hra Hádej město (dokončení)
+* seznamy a seznamy seznamů
+* ntice
+* Tic Tac Toe - záznam stavu hry
+
+## 10. cvičení (plán)
+* slovníky
+* JSON
