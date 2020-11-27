@@ -5,8 +5,11 @@ ny = 3
 a = 20
 
 speed(0)
+# nakresli tabulku
 for x in range(nx):
+    # nakresli sloupec
     for y in range(ny):
+        # nakresli čtverec
         for i in range(4):
             forward(a)
             left(90)
@@ -19,8 +22,10 @@ for x in range(nx):
     right(90)
     forward(a*ny)
     left(90)
+
     # posuň se na další sloupec
     forward(a)
+
 
 penup()
 forward(3*a)
