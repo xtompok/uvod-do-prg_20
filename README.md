@@ -14,6 +14,8 @@ Celkem budou zadány 3 domácí úkoly po 10 bodech, na zápočet je třeba zís
 
 Účast na cvičení je dobrovolná, ale v případě přetlaku na konzultace budou mít přednost ti, kteří se cvičení účastní. 
 
+[Bodování úkolů](./vysledky.md)
+
 ## Programové vybavení
 ### Interpret Pythonu
 Ať už budeme používat jakékoli vývojové prostředí, je potřeba si nanistalovat interpret Pythonu 3 - program, který vezme váš zdrojový kód, přeloží ho do instrukcí srozumitelných vašemu počítači a postupně ho provádí. Interpret stáhnete například ze [stránek Pythonu](https://www.python.org/downloads/windows/)(zde `Latest Python 3 Release` a tam dole `Windows x86-64 executable installer`). Pokud používáte Linux nebo Mac OS a nevíte si rady, napište mi prosím. Při instalaci pak na úplně první obrazovce dole zaškrtněte `Add Python 3.8 to PATH`, což vám následně umožní Python snadno spouštět.
