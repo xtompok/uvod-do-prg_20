@@ -50,6 +50,14 @@
 * ntice
 * Tic Tac Toe - záznam stavu hry
 
-## 10. cvičení (plán)
+## 10. cvičení
+* Tic Tac Toe - záznam stavu hry - dokončení
 * slovníky
 * JSON
+* stahování z webu
+* zpoždění autobusů PID
+
+## 11. cvičení (plán)
+* rekurze
+* kochova vločka
+* kreslení stromů rekurzí
