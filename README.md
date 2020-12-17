@@ -106,6 +106,49 @@ popisovat použité algoritmy. Doplňkem této dokumentace jsou docstringy
 u jednotlivých funkcí, které říkají vstupní a výstupní parametry každé
 funkce.
 
+## Volání funkcí a rekurze
+### Zásobník a halda
+Pokud v programu vytvoříme nějakou proměnnou, uloží se odkaz na ni (u čísel a
+dalších jednoduchých typů sama proměnná) na zásobník, samotný objekt (bude
+vysvětleno později, berte to nyní jako její obsah) se uloží do haldy někde v
+paměti. Pokud zanikne odkaz na tento objekt, tzn. neexistuje v programu
+proměnná, pomocí které se můžeme k danému objektu dostat, stává se objekt
+nedosažitelný a časem je z haldy odstraněn. O tuto činnost se stará garbage
+collector, který běží nezávisle na programu (ale stále je to součást Pythonu) a
+zde jej dále nebudeme rozebírat.
+Halda je v principu neomezeně velká (respektive omezená jen dostupnou pamětí),
+zásobník má omezenou velikost. Pro vytváření proměnných nás to nemusí trápit,
+ale při rekurzi je potřeba na to myslet.
+
+### Volání funkce
+Pokud z nějakého místa v kódu voláme funkci, musíme provést některé přípravy.
+Protože je funkce samostatným celkem, který neví, odkud a kdy bude zavolán, je
+potřeba ji předem někam nachystat argumenty a říct, kde se má pokračovat, když
+funkce skončí. Také funkce potřebuje dalšímu kódu nějak předat to, co vrací. 
+Pro tyto účely se využívá zásobník:
+ - na zásobník se uloží, kde pokračovat po skončení funkce (návratová adresa)
+ - na zásobník se uloží odkazy na argumenty funkce
+
+Následně se začne vykonávat kód funkce, který nejprve vytvoří lokální proměnné
+dle názvů argumentů funkce a přiřadí do nich hodnoty ze zásobníku. Poté se
+pokračuje příkazy ve funkci. Pokud už není ve funkci další příkaz k vykonání
+nebo byl zavolán `return`, vymaže se celý obsah zásobníku nad návratovou
+adresou, pokud funkce něco vrací, tak je odkaz na vracený objekt přidán na
+zásobník a skočí se tam, odkud byla funkce volána (což se zjistí z
+návratové adresy). Pokud měl být výsledek funkce přiřazen do proměnné, uloží se
+do proměnné odkaz ze zásobníku. Nakonec se smaže zásobník po návratovou adresu
+včetně a vykonávají se příkazy dále tam, odkud byla funkce volána.
+
+### Rekurze
+Z výše zmíněného popisu volání funkce vyplývá, že nic nebrání tomu, aby funkce
+volala sebe samu. Tomuto se říká rekurze. U rekurze je důležité, aby tento řetěz
+volání sebe sama někdy skončil, jinak dojde k přeplnění zásobníku (stack
+overflow) a program bude ukončen operačním systémem. K přeplnění dojde proto, že
+každé volání funkce musí na zásobník uložit alespoň návratovou adresu, tedy
+zásobník stále roste. Více na
+[webu KSP](http://ksp.mff.cuni.cz/kucharky/zakladni-algoritmy/), v části
+*Programátorské techniky*. 
+
 ## Instalace modulů z PyPi
 Pokud chcete rozšířit funkcionalitu Pythonu nějakým modulem třetí strany,
 obvykle se tyto moduly instalují pomocí příkazu `pip install <jmeno_modulu>`.
