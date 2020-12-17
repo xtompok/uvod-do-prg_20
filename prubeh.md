@@ -57,7 +57,12 @@
 * stahování z webu
 * zpoždění autobusů PID
 
-## 11. cvičení (plán)
+## 11. cvičení
 * rekurze
 * kochova vločka
+
+## 12. cvičení (plán)
+* převod mezi souřadnicovými systémy pomocí PyProj
+* GeoJSON
+* zadání 2. DÚ
 * kreslení stromů rekurzí

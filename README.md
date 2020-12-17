@@ -106,3 +106,15 @@ popisovat použité algoritmy. Doplňkem této dokumentace jsou docstringy
 u jednotlivých funkcí, které říkají vstupní a výstupní parametry každé
 funkce.
 
+## Instalace modulů z PyPi
+Pokud chcete rozšířit funkcionalitu Pythonu nějakým modulem třetí strany,
+obvykle se tyto moduly instalují pomocí příkazu `pip install <jmeno_modulu>`.
+Tento příkaz se zadává do terminálového okna dole ve Visual Studio Code,
+případně do příkazového řádku emulátoru terminálu (`cmd.exe` ve Windows). Pokud
+jste při instalaci Pythonu zaškrtli `Add Python 3.8 to PATH` (viz výše), tak by
+vše mělo fungovat jednoduše, pokud jste tuto možnost nezaškrtli, musíte zadat
+celou cestu k programu `pip.exe`. Tuto cestu zjistíte například tak, že spustíte
+program v Pythonu a podíváte se, co se vám objevilo v terminálu za příkaz.
+Zkopírujete cestu začínající obvykle `C:\` a končící `\python.exe`. `python.exe`
+smažete a místo něj napíšete `pip.exe install <jmeno_modulu>`. Pak by již měla
+instalace modulu proběhnout bez problému. 
