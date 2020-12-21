@@ -61,7 +61,7 @@
 * rekurze
 * kochova vločka
 
-## 12. cvičení (plán)
+## 12. cvičení
 * převod mezi souřadnicovými systémy pomocí PyProj
 * GeoJSON
 * zadání 2. DÚ
