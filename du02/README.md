@@ -16,7 +16,7 @@ kontejner nejdále.
 ### Vstupní data
 Vstupními daty budou 2 soubory GeoJSON. První obsahuje adresní body zvolené
 čtvrti ve WGS-84, lze jej stáhnout z [Overpass
-Turbo](http://overpass-turbo.eu/s/119J) pomocí Exportovat -> Stáhnout jako
+Turbo](http://overpass-turbo.eu/s/11rE) pomocí Exportovat -> Stáhnout jako
 GeoJSON. V atributu `addr:street` naleznete jméno ulice, v atributu
 `addr:housenumber` naleznete číslo orientační / číslo popisné. Soubor po stažení
 pojmenujte `adresy.geojson` a pod tímto jménem ho program také bude načítat.
