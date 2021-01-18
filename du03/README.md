@@ -37,7 +37,7 @@ Vstupními daty bude soubor GeoJSON, který bude obsahovat
 tedy vzdálenost lze počítat přímočaře Pythagorovou větou. 
 
 Jméno vstupního souboru bude zadáno jako parametr při spouštění skriptu `-f
-<nazev_souboru>`, maximální vzdálenost bude zadána jako parametr `-l` při
+<nazev_souboru>`, maximální vzdálenost bude zadána jako parametr `-l <vzdalenost>` při
 spouštění skriptu. Pro získání parametrů doporučuji využít modulu
 [`argparse`](https://docs.python.org/3/library/argparse.html) nebo modulu
 [`click`](https://click.palletsprojects.com/en/7.x/).
