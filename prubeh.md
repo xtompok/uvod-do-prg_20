@@ -66,3 +66,10 @@
 * GeoJSON
 * zadání 2. DÚ
 * kreslení stromů rekurzí
+
+## 13. cvičení
+* třídy
+  * metody
+  * atributy
+  * dědičnost
+* co bude v Programování II
